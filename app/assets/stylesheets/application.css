@@ -1,0 +1,568 @@
+body {
+    margin:0;
+}
+
+.club {
+    height: 200px;
+}
+
+.OT {
+    width: 360px;
+}
+
+.team {
+    width: 40px;
+}
+
+.board {
+    width: 400px;
+}
+
+.overview h2 {
+    margin:0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.page_wrap {
+    min-height:100%;
+    min-width: 100%;
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+    background-color: #EAEAEA;
+}
+
+.title {
+    background-color:#DA291C;
+    width:100%;
+    margin:0;
+    float:left;
+    display:block;
+}
+
+.logo {
+    display: inline-block;
+    width:60px;
+    margin: 6px 10px 0 15px;
+    float:left;
+}
+
+.title h1 {
+    display:inline;
+    color:#EAEAEA;
+    font-size: 60px;
+    font-family: Fantasy;
+    margin-left:5px;
+}
+
+.toolbar {
+    display:block;
+    float:left;
+    width:100%;
+    height:30px;
+    background-color:black;
+    z-index: 50;
+}
+
+.toolbar a {
+    display: inline;
+    float:left;
+    color:#EAEAEA;
+    font-family:fantasy;
+    text-decoration:none;
+    font-size:20px;
+    padding-left:1%;
+    margin-right: 3%;
+}
+
+.main-skin {
+    display:block;
+    position:relative;
+    clear:both;
+    background-image: url('stadium.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+
+.container {
+    padding-top:12.5%;
+    padding-left:7%;
+    color:#EAEAEA;
+    font-family: 'Elephant', 'STENCIl', 'Broadway';
+    font-size: 24px;
+    position:relative;
+    font-weight:bold;
+}
+
+.container h1 {
+    margin-bottom:0;
+}
+
+
+.container p {
+    margin-top:0;
+    padding-left:1%;
+}
+
+.banners {
+    display:inline-block;
+    background-color:#D4D4D4;
+    position: relative;
+    margin:0;
+    width:100%;
+}
+
+.about, .manager, .squad {
+    float:left;
+    width:30%;
+    height:330px;
+    margin: 1% 1% 1% 1%;
+    background-color: white;
+}
+
+.recent, .trophies, .photos {
+    float:left;
+    width:30%;
+    height:330px;
+    margin: 1% 1% 1% 1%;
+    background-color: white;
+}
+
+
+.banners>a>div>img {
+    width:100%;
+}
+
+.banners>a>div>h2 {
+    margin-top:5px;
+    font-family:Verdana;
+    text-align:center;
+}
+
+.about, .recent {
+    margin-left: 25px;
+}
+
+.footer {
+    display: inline-block;
+    position: relative;
+    height: 140px;
+}
+
+.official {
+    position: relative;
+    float:left;
+    padding: 5px 20px 20px 60px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.official p {
+    display:inline;
+    padding-right:20px;
+    padding-left:6px;
+    border-left: 1px solid black;
+}
+
+.official>a {
+    text-decoration: none;
+    color: black;
+}
+
+.about, .manager, .squad, .recent, .trophies, .photos {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+.contact {
+    display:inline;
+    position:relative;
+    float:right;
+    padding: 5px 20px 20px 400px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.contact a {
+    display:inline;
+    text-decoration:none;
+    color:black;
+    padding-left:6px;
+    padding-right:20px;
+    border-left: 1px solid black;
+}
+
+.contents {
+    display:inline-block;
+    position:relative;
+    margin: 7px 0 7px 0;
+    padding-left:10px;
+    font-family: 'a시월구일3';
+}
+
+.contents p {
+    font-family: '나눔스퀘어';
+}
+
+.contents>img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+.current {
+    display:inline-block;
+    margin-top:10px;
+}
+
+.current>a {
+    text-decoration:none;
+    color:black;
+}
+
+#profile {
+    display: inline-block;
+    position: relative;
+    height: 700px;
+    width:100%;
+    background-image:url('ole_wall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+
+#profile>h2 {
+    position: relative;
+    font-family: 나눔스퀘어OTF, "a시월구일3";
+    color:#EAEAEA;
+    padding: 15% 0px 0px 8%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#profile>table {
+    position: relative;
+    font-family: "a시월구일3";
+    color:#EAEAEA;
+    padding: 5px 0px 0px 120px;
+    font-size:16px;
+    font-family:"times";
+    margin-left: 120px;
+    border-collapse: collapse;
+}
+
+#profile .axis {
+    text-align:center;
+}
+
+.contents h3 {
+    font-size:22px;
+    font-weight:bold;
+    font-family:"Elephant";
+}
+
+#quotes {
+    font-family: '나눔스퀘어';
+}
+
+#career .table {
+    border:1px solid black;
+    border-collapse: collapse;
+    font-family: '나눔스퀘어';
+}
+
+#career th, #career td {
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    padding: 8px 0 8px 0;
+}
+
+#career th {
+    border-top:1px solid black;
+    background-color: #B1B1B1;
+}
+
+.left {
+    border-left:1px solid black;
+}
+
+
+/* 선수들 명단 */
+
+.gea, .romero {
+    float:left;
+    width:22%;
+    height:310px;
+    margin: 15px 15px 15px 15px;
+    text-align:center;
+}
+
+.gea img, .romero img, .shaw img, .smalling img, .viktor img, .jones img, .rojo img, .young img, .pogba img,
+.herrera img, .matic img, .mctominay img, .mata img, .lingard img, .rashford img, .sanchez img, .martial img, .lukaku img {
+    width:100%;
+}
+
+.df {
+    clear:both;
+}
+
+.shaw, .smalling, .viktor {
+    float:left;
+    width:22%;
+    height:310px;
+    margin: 15px 15px 15px 15px;
+    text-align:center;
+}
+
+.jones, .rojo, .young {
+    float:left;
+    width:22%;
+    height:310px;
+    margin: 15px 15px 15px 15px;
+    text-align:center;
+}
+
+.mf {
+    clear:both;
+}
+
+.pogba, .herrera, .matic {
+    float:left;
+    width:22%;
+    height:310px;
+    margin: 15px 15px 15px 15px;
+    text-align:center;
+}
+
+.mctominay, .mata, .lingard {
+    float:left;
+    width:22%;
+    height:310px;
+    margin: 15px 15px 15px 15px;
+    text-align:center;
+}
+
+.fw {
+    clear:both;
+}
+
+.rashford, .sanchez {
+    float:left;
+    width:22%;
+    height:310px;
+    margin: 15px 15px 15px 15px;
+    text-align:center;
+}
+
+.martial, .lukaku {
+    float:left;
+    width:22%;
+    height:310px;
+    margin: 15px 15px 15px 15px;
+    text-align:center;
+}
+
+#game-records {
+    position: relative;
+    display: block;
+}
+
+#game-records table {
+    position: relative;
+    float:left;
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-right:180px;
+}
+
+#game-records table thead {
+    background-color: #D3D3D3;
+}
+
+#game-records th, #game-records td {
+    border:1px solid black;
+}
+
+.epl, .cl, .fa, .lc {
+    margin: 10px 0 40px 0;
+}
+
+.epl, .cl {
+    float:left;
+    margin-right: 100px;
+}
+
+.fa {
+    clear: both;
+}
+
+.fa, .lc {
+    float:left;
+    margin-right: 100px;
+}
+
+
+.epl img, .cl img, .fa img, .lc img {
+    display: inline;
+    position: relative;
+    height:80px;
+}
+
+.raw_photos img {
+    display: inline;
+    float: left;
+    /* max-height:300px; */
+    max-width:600px;
+    margin-right: 15px;
+    margin-bottom:15px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+.raw_photos {
+    margin: 5px 0 5px 10px;
+}
+
+.cut {
+    clear:both;
+}
+
+.discussion_title {
+    text-decoration: none;
+}
+
+
+.discussion_table {
+    width: 60%;
+    text-align: left;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin: 0 0 1% 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 0.5%;
+    border-radius:3px;
+    box-shadow:2px 2px 2px 2px #999;
+    background-color: #FCFCFC;
+}
+
+.discussion_body {
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+.notepad:focus {
+    outline: none;
+    
+}
+
+.upper {
+    margin-left: 1%;
+    width: 100px;
+}
+
+.author {
+    width: 90%;
+    margin: 1% 0 2% 1%;
+}
+
+.notepad {
+    width: 100%;
+}
+
+.body {
+    width: 90%;
+    box-shadow: 0 8px 30px -14px rgba(0, 0, 0, 0.5);
+    margin: 1% 0 2% 1%;
+}
+
+.label {
+    margin-left: 1%;
+}
+
+
+.submit {
+    margin: -20px 0 1% 1%;
+}
+
+.form_area {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    z-index: 1;
+    border: 0.2px dashed black;
+    border-radius:3px;
+    box-shadow:2px 2px 2px 2px #999;
+    background-color: #AFCCE6;
+}
+
+.create_time {
+    text-align: right;
+}
+
+.discussion_create {
+    z-index: 1;
+}
+
+.discussion_wrap {
+    padding-bottom: 1%;
+}
+
+.to_top {
+    margin-left: 1%;
+}
+
+.complaint_form {
+    height: 80%;
+}
+
+.notice {
+    display: inline-block;
+    position: relative;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: #EADF98;
+    padding-left: 0.5%;
+    padding-right: 1.5%;
+}
+
+.author_cell {
+    width: 35%;
+    padding-bottom: 1.5%;
+    text-align: left;
+}
+
+.created_at_cell {
+    width: 35%;
+    text-align: right;
+}
+
+#discussion_body {
+    padding-bottom: 2%;
+}
+
+#discussion_show {
+    margin-left: 1%;
+    display: inline-block;
+    position: relative;
+    padding-top: 1%;
+    font-family: sans-serif;
+}
+
+#discussion_show_table {
+    border: 1px solid black;
+    padding: 0.5% 1% 1% 1%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+        <div class="page_wrap">
+            <div class="title">
+                <%= link_to home_index_path, :class => 'link' do %>
+                    <%= image_tag('manchester_united_logo.png', :class => "logo") %>
+                    <h1>
+                        Manchester United FC
+                    </h1>
+                <% end %>
+            </div>
+            <div class='toolbar'>
+                <%= link_to about_index_path do %> About<% end %>
+                <%= link_to manager_index_path do %> Manager<% end %>
+                <%= link_to squad_index_path do %> Squad<% end %>
+                <%= link_to recent_index_path do %> Recent<% end %>
+                <%= link_to trophies_index_path do %> Trophies<% end %>
+                <%= link_to photos_index_path do %> Photos<% end %>
+                <%= link_to discussions_path do %> Discussions<% end %>
+            </div>
+            <div class='current'>
+                <%= link_to photos_index_path do %> >Photos <% end %>
+            </div>
+            <hr/>
+            <div class='raw_photos'>
+                <% for name in @list %>
+                    <% if name == '14.jpg' %>
+                        <%= image_tag(name, :class => "cut") %>
+                        <% next %>
+                    <% else %>
+                        <%= image_tag name %>
+                    <% end %>
+                <% end %>
+            </div>
+        </div>
+    </body>
+</html>

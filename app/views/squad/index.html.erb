@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+        <div class="page_wrap">
+            <div class="title">
+                <%= link_to home_index_path, :class => 'link' do %>
+                    <%= image_tag('manchester_united_logo.png', :class => "logo") %>
+                    <h1>
+                        Manchester United FC
+                    </h1>
+                <% end %>
+            </div>
+            <div class='toolbar'>
+                <%= link_to about_index_path do %> About<% end %>
+                <%= link_to manager_index_path do %> Manager<% end %>
+                <%= link_to squad_index_path do %> Squad<% end %>
+                <%= link_to recent_index_path do %> Recent<% end %>
+                <%= link_to trophies_index_path do %> Trophies<% end %>
+                <%= link_to photos_index_path do %> Photos<% end %>
+                <%= link_to discussions_path do %> Discussions<% end %>
+            </div>
+            <div class='current'>
+                <%= link_to squad_index_path do %> >Squad <% end %>
+            </div>
+            <hr/>
+            <div class="contents">
+                <div class='gk'>
+                    <h3>
+                        골키퍼
+                    </h3>
+                    <div class='gea'>
+                        <a href="https://ko.wikipedia.org/wiki/%EB%8B%A4%EB%B9%84%EB%93%9C_%EB%8D%B0_%ED%97%A4%EC%95%84" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'gea.png' %>
+                            다비드 데 헤아 (1)
+                        </a>
+                    </div>
+                    <div class='romero'>
+                        <a href="https://ko.wikipedia.org/wiki/%EC%84%B8%EB%A5%B4%ED%9E%88%EC%98%A4_%EB%A1%9C%EB%A9%94%EB%A1%9C" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'romero.png' %>
+                            세르히오 로메로 (22)
+                        </a>
+                    </div>
+                </div>
+                <div class="df">
+                    <h3>
+                        수비수
+                    </h3>
+                    <div class='shaw'>
+                        <a href="https://ko.wikipedia.org/wiki/%EB%A3%A8%ED%81%AC_%EC%87%BC" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'shaw.png' %>
+                            루크 쇼 (23)
+                        </a>
+                    </div>
+                    <div class='smalling'>
+                        <a href="https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A6%AC%EC%8A%A4_%EC%8A%A4%EB%AA%B0%EB%A7%81" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'smalling.png' %>
+                            크리스 스몰링 (12)
+                        </a>
+                    </div>
+                    <div class='viktor'>
+                        <a href="https://ko.wikipedia.org/wiki/%EB%B9%85%ED%86%A0%EB%A5%B4_%EB%A6%B0%EB%8D%B8%EB%A2%B0%ED%94%84" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'viktor.png' %>
+                            빅토르 린델뢰프 (2)
+                        </a>
+                    </div>
+                    <div class="jones">
+                        <a href="https://ko.wikipedia.org/wiki/%ED%95%84_%EC%A1%B4%EC%8A%A4" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'jones.png' %>
+                            필 존스 (4)
+                        </a>
+                    </div>
+                    <div class="rojo">
+                        <a href="https://ko.wikipedia.org/wiki/%EB%A7%88%EB%A5%B4%EC%BD%94%EC%8A%A4_%EB%A1%9C%ED%98%B8" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'rojo.png' %>
+                            마르코스 로호 (16)
+                        </a>
+                    </div>
+                    <div class='young'>
+                        <a href="https://ko.wikipedia.org/wiki/%EC%95%A0%EC%8A%90%EB%A6%AC_%EC%98%81" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'young.png' %>
+                            애슐리 영 (18)
+                        </a>
+                    </div>
+                </div>
+                <div class="mf">
+                    <h3>
+                        미드필더
+                    </h3>
+                    <div class="pogba">
+                        <a href="https://ko.wikipedia.org/wiki/%ED%8F%B4_%ED%8F%AC%EA%B7%B8%EB%B0%94" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'pogba.png' %>
+                            폴 포그바 (6)
+                        </a>
+                    </div>
+                    <div class="herrera">
+                        <a href="https://ko.wikipedia.org/wiki/%EC%95%88%EB%8D%B0%EB%A5%B4_%EC%97%90%EB%A0%88%EB%9D%BC" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'herrera.png' %>
+                            안데르 에레라 (21)
+                        </a>
+                    </div>
+                    <div class="matic">
+                        <a href="https://ko.wikipedia.org/wiki/%EB%84%A4%EB%A7%88%EB%83%90_%EB%A7%88%ED%8B%B0%EC%B9%98" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'matic.png' %>
+                            네마냐 마티치 (31)
+                        </a>
+                    </div>
+                    <div class="mctominay">
+                        <a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%BD%A7_%EB%A7%A5%ED%86%A0%EB%AF%B8%EB%8B%88" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'mctominay.png' %>
+                            스콧 맥토미니 (39)
+                        </a>
+                    </div>
+                    <div class="mata">
+                        <a href="https://ko.wikipedia.org/wiki/%ED%9B%84%EC%95%88_%EB%A7%88%ED%83%80" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'mata.png' %>
+                            후안 마타 (8)
+                        </a>
+                    </div>
+                    <div class='lingard'>
+                        <a href="https://ko.wikipedia.org/wiki/%EC%A0%9C%EC%8B%9C_%EB%A6%B0%EA%B0%80%EB%93%9C" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'lingard.png' %>
+                            제시 린가드 (14)
+                        </a>
+                    </dov>
+                </div>
+                <div class="fw">
+                    <h3 class='fw' style="font-size:20px; font-family:Verdana">
+                        공격수
+                    </h3>
+                    <div class="rashford">
+                        <a href="https://ko.wikipedia.org/wiki/%EB%A7%88%EC%BB%A4%EC%8A%A4_%EB%9E%98%EC%8B%9C%ED%8D%BC%EB%93%9C" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'rashford.png' %>
+                            마커스 래쉬포드 (10)
+                        </a>
+                    </div>
+                    <div class="sanchez">
+                        <a href="https://ko.wikipedia.org/wiki/%EC%95%8C%EB%A0%89%EC%8B%9C%EC%8A%A4_%EC%82%B0%EC%B2%B4%EC%8A%A4" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'sanchez.png' %>
+                            알렉시스 산체스 (7)
+                        </a>
+                    </div>
+                    <div class="martial">
+                        <a href="https://ko.wikipedia.org/wiki/%EC%95%99%ED%86%A0%EB%8B%88_%EB%A7%88%EB%A5%B4%EC%8B%9C%EC%95%8C" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'martial.png' %>
+                            앙토니 마르시알 (11)
+                        </a>
+                    </div>
+                    <div class="lukaku">
+                        <a href="https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%A9%9C%EB%A3%A8_%EB%A3%A8%EC%B9%B4%EC%BF%A0" style="text-decoration:none" target="_blank">
+                            <%= image_tag 'lukaku.png' %>
+                            로멜루 루카쿠 (9)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

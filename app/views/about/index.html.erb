@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+        <div class="page_wrap">
+            <div class="title">
+                <%= link_to home_index_path, :class => 'link' do %>
+                    <%= image_tag('manchester_united_logo.png', :class => "logo") %>
+                    <h1>
+                        Manchester United FC
+                    </h1>
+                <% end %>
+            </div>
+            <div class='toolbar'>
+                <%= link_to about_index_path do %> About<% end %>
+                <%= link_to manager_index_path do %> Manager<% end %>
+                <%= link_to squad_index_path do %> Squad<% end %>
+                <%= link_to recent_index_path do %> Recent<% end %>
+                <%= link_to trophies_index_path do %> Trophies<% end %>
+                <%= link_to photos_index_path do %> Photos<% end %>
+                <%= link_to discussions_path do %> Discussions<% end %>
+            </div>
+            <div class='current'>
+                <%= link_to about_index_path do %> >About <% end %>
+            </div>
+            <hr/>
+            <div class="contents">
+                <h2> 클럽 </h2>
+                <%= image_tag("club.jpg", :class => "club") %>
+                <p>
+                    맨체스터 유나이티드 풋볼 클럽(영어: Manchesthair United Football Club, 맨체스터 유나이티드 축구단)은 잉글랜드 맨체스터에 있는
+                    잉글랜드 프로 축구 구단이다. <br>1964-65 시즌 이래 단 1번의 시즌을 제외하고는 잉글랜드에서 최다 평균 관중 기록을 차지해왔다. 프리미어리그
+                    개편 당시 원년 구단이었으며 현재까지 계속 소속해 있다.<br>
+                    1878년 요크셔 철도의 뉴턴 히스 지부 실업팀인 뉴턴 히스 LYR FC(Newton Heath LYR F.C.)로 설립되었고, 1902년 4월 26일 맨체스터 유나이티드 FC로 개명했다.<br><br>
+                    맨체스터 유나이티드 FC는 2010-11 시즌 프리미어리그 우승으로 잉글랜드 프로축구 역사상 19번째 1부 프로축구리그 우승을 기록해, 기존에 리버풀 FC가 갖고 있던 <br>기록과 같은 기록을 경신했다.
+                    구단은 1991-92 시즌부터 2012-13 시즌까지 단 한 차례도 3위 아래의 순위로 시즌을 마친 적이 없을 정도로 프리미어리그 출범 이래<br> 꾸준한 성적을 거두어왔다. 또한 구단은 잉글랜드 FA컵에서
+                    총 12회 우승하여 아스널 FC 다음으로 많은 우승기록을 보유하고 있다.
+                    <br><a href="https://ko.wikipedia.org/wiki/%EB%A7%A8%EC%B2%B4%EC%8A%A4%ED%84%B0_%EC%9C%A0%EB%82%98%EC%9D%B4%ED%8B%B0%EB%93%9C_FC" style="text-decoration:none" target="_blank">-맨유 위키</a>
+                </p>
+                <br>
+                <h2> 올드 트래포드 </h2>
+                <%= image_tag("OT.jpg", :class => "OT") %>
+                <p> Old Trafford, A.K.A. "Dream Theater"</p>
+                <p> 올드 트래포드(Old Trafford)는 영국 잉글랜드 그레이터맨체스터주 올드 트래퍼드에 위치한 축구 경기장이다. 현재 맨체스터 유나이티드의 홈구장으로, 보비 찰튼에 의해<br>
+                    붙여진 이른바 꿈의 구장(The Theatre of Dreams)이란 별칭으로도 알려져 있다. 1910년에 개장된 경기장은 2차 세계대전에는 폭격에 의해 피해를 입기도 했다. 1966년<br>
+                    FIFA 월드컵과 유로 96, 2012 런던올림픽의 경기를 치른 적이 있으며 2003년 UEFA 챔피언스리그 결승전이 이곳에서 열렸다. 76,212명의 인원을 수용할 수 있으며, <br>
+                    웸블리 경기장 다음으로 잉글랜드에서 2번째의 수용 규모를 가지고 있다. UEFA가 공인한 별 5개의 경기장이기도 하다. 따라서 UEFA 유럽축구선수권대회 및 UEFA <br>챔피언스리그의
+                    결승전을 치를 수 있는 자격이 있다.
+                    <br><a href="https://ko.wikipedia.org/wiki/%EC%98%AC%EB%93%9C_%ED%8A%B8%EB%9E%98%ED%8D%BC%EB%93%9C" style="text-decoration:none" target="_blank">-OT 위키 </a>
+                </p>
+                
+                <%= link_to "[잘못된 내용 신고하기]", new_complaint_path %>
+            </div>
+            <hr/>
+        </div>
+    </body>
+</html>

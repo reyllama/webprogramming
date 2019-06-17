@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>
+        <div class="page_wrap">
+            <div class="title">
+                <%= link_to home_index_path, :class => 'link' do %>
+                    <%= image_tag('manchester_united_logo.png', :class => "logo") %>
+                    <h1>
+                        Manchester United FC
+                    </h1>
+                <% end %>
+            </div>
+            <div class='toolbar'>
+                <%= link_to about_index_path do %> About<% end %>
+                <%= link_to manager_index_path do %> Manager<% end %>
+                <%= link_to squad_index_path do %> Squad<% end %>
+                <%= link_to recent_index_path do %> Recent<% end %>
+                <%= link_to trophies_index_path do %> Trophies<% end %>
+                <%= link_to photos_index_path do %> Photos<% end %>
+                <%= link_to discussions_path do %> Discussions<% end %>
+            </div>
+            <div class='main-skin'>
+                <div class='container'>
+                    <h1> Where History is Made</h1>
+                    <p> Step forward with 650 million comrades worldwide</p>
+                </div>
+            </div>
+            <div class='banners'>
+                <%= link_to about_index_path do %>
+                    <div class="about">
+                        <%= image_tag "about.jpg" %>
+                        <h2> About </h2>
+                    </div>
+                <% end %>
+                <%= link_to manager_index_path do %>
+                    <div class="manager">
+                        <%= image_tag "manager.jpg" %>
+                        <h2> Manager </h2>
+                    </div>
+                <% end %>
+                <%= link_to squad_index_path do %>
+                    <div class="squad">
+                        <%= image_tag "squad.jpg" %>
+                        <h2> Squad </h2>
+                    </div>
+                <% end %>
+                <%= link_to recent_index_path do %>
+                    <div class="recent">
+                        <%= image_tag "recent.jpg" %>
+                        <h2> Recent </h2>
+                    </div>
+                <% end %>
+                <%= link_to trophies_index_path do %>
+                    <div class="trophies">
+                        <%= image_tag "trophy.jpg" %>
+                        <h2> Trophies </h2>
+                    </div>
+                <% end %>
+                <%= link_to photos_index_path do %>
+                    <div class="photos">
+                        <%= image_tag "photo.jpg" %>
+                        <h2> Photos </h2>
+                    </div>
+                <% end %>
+            </div>
+            <div class="footer">
+                <div class="official">
+                    <h3> OFFICIAL Manchester Utd. </h3>
+                    <a href="https://www.manutd.com" target="_blank"><p>Official Web</p></a>
+                    <a href="https://www.facebook.com/manchesterunited" target="_blank"><p>Facebook</p></a>
+                    <a href="https://www.youtube.com/manutd" target="_blank"><p>Youtube</p></a>
+                    <a href="https://twitter.com/ManUtd" target="_blank"><p>Twitter</p></a>
+                </div>
+                <div class="contact">
+                    <h3> CONTACT US</h3>
+                    <a href="mailto:rin4616@gmail.com">E-mail</a>
+                    <a href="https://github.com/reyllama" target="_blank">Github</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

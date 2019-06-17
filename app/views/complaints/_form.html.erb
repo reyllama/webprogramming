@@ -1,0 +1,28 @@
+<%= form_for @complaint do |f| %>
+    <% if @complaint.errors.any? %>
+        <div id="error_explanation">
+            <h2>
+                <%= pluralize(@complaint.errors.count, "error") %> prohibited
+                this complaint from being accepted:
+            </h2>
+            <ul>
+                <% @complaint.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+    <div class="form_area">
+        <div class="notepad">
+            <p>
+                <%= f.label :content, :class => "label" %><br>
+                <%= f.text_area :content, :class => "body" %>
+            </p>
+        </div>
+        <div class="submit">
+            <p>
+                <%= f.submit '접수하기', data: { confirm: '접수하시겠습니까?' } %>
+            </p>
+        </div>
+    </div>
+<% end %>
